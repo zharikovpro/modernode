@@ -4,14 +4,14 @@
   "description": "Modern Node.js + ES2015 boilerplate",
   "author": "Andrey Zharikov",
   "license": "MIT",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "lint": "eslint *.js test/ src/",
     "test": "mocha --compilers js:babel-register",
     "coverage": "rm -rf coverage/* && babel-node ./node_modules/.bin/istanbul cover _mocha -- --compilers js:babel-register",
-    "dev": "nodemon ./src/server.js --exec babel-node",
+    "dev": "nodemon ./src/app.js --exec babel-node",
     "compile": "rm -rf dist/* && babel ./src -d dist",
-    "start": "node ./dist/server.js"
+    "start": "node ./dist/app.js"
   },
   "dependencies": {
     "babel-cli": "^6.11.4",

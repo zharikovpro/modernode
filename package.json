@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "description": "Modern Node.js + ES2015 boilerplate",
   "author": "Andrey Zharikov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zharikovpro/modernode.git"
+  },
   "license": "MIT",
   "main": "app.js",
+  "engines": {
+    "node": "6.9.1"
+  },
   "scripts": {
     "lint": "eslint *.js test/ src/",
     "test": "mocha --compilers js:babel-register",

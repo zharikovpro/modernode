@@ -5,3 +5,4 @@ Modern Node.js boilerplate
 * ES6
 * ESLint
 * Jest
+* dotenv

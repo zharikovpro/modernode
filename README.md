@@ -1,2 +1,4 @@
-Modern Node.js + ES2015 boilerplate
-===================================
+Modern Node.js boilerplate
+==========================
+
+Node 8 + ES6 + Jest.

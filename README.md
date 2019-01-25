@@ -1,7 +1,7 @@
 Modern Node.js boilerplate
 ==========================
 
-* Node 8
+* Node 10.15.0
 * ES6
 * ESLint
 * Jest

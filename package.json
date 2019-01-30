@@ -15,16 +15,12 @@
   "scripts": {
     "lint": "eslint spec src",
     "test": "jest",
-    "build": "rm -rf build/* && babel ./src -d build",
-    "start": "node ./build/app.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
     "dotenv": "6.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "7.3.1",
     "eslint": "5.12.1",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.15.0",
